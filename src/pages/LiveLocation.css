@@ -1,0 +1,208 @@
+/* LiveLocation.css */
+
+.location-page {
+min-height: 100vh;
+background: linear-gradient(135deg, #fff7fb, #f5f0ff);
+font-family: 'Segoe UI', sans-serif;
+color: #30243d;
+}
+
+/* Navbar */
+.location-navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 7%;
+background: rgba(255, 255, 255, 0.9);
+box-shadow: 0 3px 15px rgba(80, 45, 100, 0.07);
+}
+
+.location-navbar h2 {
+color: #853c91;
+font-size: 22px;
+font-weight: 750;
+letter-spacing: 1px;
+}
+
+.location-navbar button {
+padding: 11px 20px;
+border: none;
+border-radius: 9px;
+background: #853c91;
+color: white;
+font-size: 14px;
+font-weight: 600;
+cursor: pointer;
+transition: 0.3s ease;
+}
+
+.location-navbar button:hover {
+background: #6d2c7b;
+transform: translateY(-2px);
+}
+
+/* Main Container */
+.location-container {
+width: 90%;
+max-width: 650px;
+margin: 55px auto;
+padding: 40px;
+background: white;
+border-radius: 20px;
+text-align: center;
+box-shadow: 0 10px 35px rgba(91, 48, 110, 0.10);
+}
+
+.location-icon {
+width: 75px;
+height: 75px;
+margin: 0 auto 18px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #f8e9f8;
+border-radius: 50%;
+font-size: 35px;
+}
+
+.location-container h1 {
+color: #783b85;
+font-size: 30px;
+margin-bottom: 12px;
+}
+
+.location-container > p {
+color: #777080;
+font-size: 15px;
+margin-bottom: 28px;
+line-height: 1.6;
+}
+
+/* Get Location Button */
+.location-button {
+padding: 14px 30px;
+border: none;
+border-radius: 10px;
+background: linear-gradient(135deg, #a64ca6, #7845a5);
+color: white;
+font-size: 15px;
+font-weight: 600;
+cursor: pointer;
+transition: 0.3s ease;
+box-shadow: 0 5px 15px rgba(133, 60, 145, 0.2);
+}
+
+.location-button:hover {
+transform: translateY(-3px);
+box-shadow: 0 8px 20px rgba(133, 60, 145, 0.3);
+}
+
+.location-button:disabled {
+opacity: 0.65;
+cursor: not-allowed;
+transform: none;
+}
+
+/* Error Message */
+.location-error {
+margin-top: 22px;
+padding: 14px;
+background: #fff0f0;
+border: 1px solid #ffcaca;
+border-radius: 10px;
+color: #c0394b;
+font-size: 14px;
+line-height: 1.5;
+}
+
+/* Location Result */
+.location-result {
+margin-top: 30px;
+padding: 25px;
+background: #faf5ff;
+border: 1px solid #ead8f0;
+border-radius: 14px;
+text-align: left;
+}
+
+.location-result h2 {
+color: #783b85;
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+.location-result p {
+margin: 13px 0;
+color: #62566b;
+font-size: 14px;
+line-height: 1.6;
+overflow-wrap: anywhere;
+}
+
+.location-result strong {
+color: #392746;
+}
+
+.location-result a {
+display: inline-block;
+margin-top: 15px;
+padding: 12px 18px;
+background: #853c91;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-size: 14px;
+font-weight: 600;
+transition: 0.3s ease;
+}
+
+.location-result a:hover {
+background: #682d76;
+}
+
+/* Privacy Note */
+.location-note {
+margin-top: 30px;
+padding: 18px;
+background: #fff7fb;
+border-radius: 12px;
+border-left: 4px solid #bd78bd;
+text-align: left;
+}
+
+.location-note p {
+color: #766b7d;
+font-size: 13px;
+line-height: 1.7;
+margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+.location-navbar {
+padding: 17px 5%;
+}
+
+.location-navbar h2 {
+font-size: 17px;
+}
+
+.location-navbar button {
+padding: 9px 12px;
+font-size: 12px;
+}
+
+.location-container {
+width: 88%;
+margin: 35px auto;
+padding: 25px 18px;
+}
+
+.location-container h1 {
+font-size: 25px;
+}
+
+.location-result {
+padding: 18px;
+}
+}
