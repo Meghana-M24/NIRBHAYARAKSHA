@@ -1,3 +1,4 @@
+
 import { Routes, Route, Link } from 'react-router-dom';
 
 import Login from './pages/Login';
@@ -49,15 +50,21 @@ function Home() {
         </div>
 
         <div className="nav-actions">
-          <Link to="/login" className="login-btn">Login</Link>
-          <Link to="/signup" className="signup-btn">Sign Up</Link>
+          <Link to="/login" className="login-btn">
+            Login
+          </Link>
+          <Link to="/signup" className="signup-btn">
+            Sign Up
+          </Link>
         </div>
       </nav>
 
       <main>
         <section className="hero" id="home">
           <div className="hero-content">
-            <span className="eyebrow">SAFE. SMART. EMPOWERED.</span>
+            <span className="eyebrow">
+              SAFE. SMART. EMPOWERED.
+            </span>
 
             <h1>
               Your Safety,<br />
@@ -88,8 +95,8 @@ function Home() {
 
           <div className="hero-visual">
             <img
-              src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=85"
-              alt="Woman walking confidently outdoors"
+              src="/hero.png"
+              alt="NIRBHAYARAKSHA safety illustration"
             />
 
             <div className="photo-caption">
@@ -159,8 +166,13 @@ function Home() {
 
         <section className="about-section" id="about">
           <div>
-            <span className="eyebrow">ABOUT NIRBHAYARAKSHA</span>
-            <h2>Feel confident.<br />Move freely.</h2>
+            <span className="eyebrow">
+              ABOUT NIRBHAYARAKSHA
+            </span>
+            <h2>
+              Feel confident.<br />
+              Move freely.
+            </h2>
             <p>
               We aim to make personal safety more accessible
               through thoughtful technology and simple tools.
